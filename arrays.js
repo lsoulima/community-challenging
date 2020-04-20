@@ -33,3 +33,4 @@ let result = insertionSort(arr, 0, arr.length - 1);
 
 console.log(result);
 
+// It'll be sorted also with QuickSort
