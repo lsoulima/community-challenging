@@ -14,7 +14,6 @@ you'll get an error SyntaxError: Unexpected token import. It happens because we 
 3. Add start.js file
 
 This file will act as an entry-point for our node.js app and will contain babel registration code:
-
 */
 //---------------------------------------------------- start.js ---------------------------------------------------------------------
 
