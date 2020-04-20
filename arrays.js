@@ -1,3 +1,7 @@
+// arrays
+// given a list of numbers [1 25 4 7 2 6 5]
+// output should be like: [1, 2, 4, 5, 6, 7, 25]
+
 function insertionSort(arr, startIndex, endIndex, gap = 1)
 {
     var i, j, key;
@@ -25,6 +29,7 @@ let arr = [1, 25, 4, 7, 2, 6, 5];
 
 // let arr = ['Hello', 'World', ' Its me'];
 
-result = insertionSort(arr, 0, arr.length - 1);
+let result = insertionSort(arr, 0, arr.length - 1);
 
 console.log(result);
+
