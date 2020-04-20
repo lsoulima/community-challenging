@@ -24,3 +24,10 @@ require("@babel/register")({
 
 // Import the rest of our application.
 module.exports = require('./objects.js')
+
+/* ----------------------------------------------------------------------------------------------------------------------------------
+For example :
+To include insertionSort function__defined in 'arrays.js'__ in 'objects.js' ...
+We'll append ```export {insertionSort};``` in arrays.js file ...
+Then add ```import {insertionSort} from './arrays.js' in objects.js to use this function in order to sort arrays ;)
+-----------------------------------------------------------------------------------------------------------------------------------*/
